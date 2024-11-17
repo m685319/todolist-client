@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: todoclient
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: todolist-group
+    topic: todoservice-topic
